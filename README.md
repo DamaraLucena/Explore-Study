@@ -85,7 +85,7 @@
             <td>Stage 3</td>
             <td>HTML,CSS and JavaScript</td>
             <td align="center">
-            <a href="05"><img width="300px" src="/.github/05-preview.png" /></a></td>
+            <a href="05"><img width="300px" src="/.github/05-preview.png"/></a></td>
         </tr>
     </tbody>
 
