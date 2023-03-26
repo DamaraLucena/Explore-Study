@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+
+    background-color: #000000;
+    color: #ffffff;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 8rem;
+
+    border: 1px solid #181818;
+}
+
+nav {
+
+    max-width: 112rem;
+    width: 100%;
+    height: 5rem;
+
+    margin: 20px auto;
+
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+
+/* Main */
+
+main {
+    max-width: 144rem;
+    width: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 6rem;
+    margin-top: 1rem;
+    font-weight: 900;
+    line-height: 200%;
+
+    --bg-size: 400%;
+    --color-one: rgba(59,210,181,1) ;
+    --color-two: rgba(251,29,253,1) ;
+    --color-three: rgba(245,218,57,1);
+
+    background: linear-gradient(
+                    281deg,
+                    var(--color-one),
+                    var(--color-two),
+                    var(--color-three),
+                    var(--color-two),
+                    var(--color-one)
+                ) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 10s infinite linear;
+    
+}
+
+.cards {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+
+    margin-top: 2rem;
+    padding: 2rem;
+    align-items: center;
+}
+
+.card {
+    height: 30rem;
+    transition: transform .5s  ;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    max-height: 30rem;
+
+    object-fit: cover;
+    border-radius: 3.4rem;
+}
+
+/* Gradiente */
+
+@keyframes move-bg {
+    to {
+        background-position: var(--bg-size) 0;
+    }
+}

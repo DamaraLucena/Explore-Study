@@ -79,6 +79,14 @@
             <td align="center">
             <a href="04"><img width="300px" src="/.github/04-preview.png" /></a></td>
         </tr>
+         <tr>
+            <td>05</td>
+            <td><a href="05">The Cozy Corner</a></td>
+            <td>Stage 3</td>
+            <td>HTML,CSS and JavaScript</td>
+            <td align="center">
+            <a href="05"><img width="300px" src="/.github/05-preview.png" /></a></td>
+        </tr>
     </tbody>
 
 </table></p>
