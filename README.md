@@ -1,9 +1,9 @@
 ## Projetos Explorer Study
 
 <p align="center">
-    Projetos #boraCodar da Rocketseat <br>
-    <a href="https://boracodar.dev">Acesse o desafio desta semana clicando aqui</a><br>
-    <br><table>
+    Projetos Feitos nos Stages do Curso da Rocketseat
+    <br>
+    <table>
     <thead>
         <tr>
             <th align="center">
@@ -53,7 +53,7 @@
             <td>Stage 2</td>
             <td>HTML and CSS</td>
             <td align="center">
-            <a href="01"><img width="300px" src="/.github/01-preview.jpg" /></a></td>
+            <a href="01"><img width="300px" src="/.github/01-preview.png" /></a></td>
         </tr>
         <tr>
             <td>02</td>
@@ -61,7 +61,7 @@
             <td>Stage 2</td>
             <td>HTML and CSS</td>
             <td align="center">
-            <a href="02"><img width="300px" src="/.github/02-preview.jpg" /></a></td>
+            <a href="02"><img width="300px" src="/.github/02-preview.png" /></a></td>
         </tr>
         <tr>
             <td>03</td>
@@ -69,7 +69,7 @@
             <td>Stage 2</td>
             <td>HTML and CSS</td>
             <td align="center">
-            <a href="03"><img width="300px" src="/.github/03-preview.jpg" /></a></td>
+            <a href="03"><img width="300px" src="/.github/03-preview.png" /></a></td>
         </tr>
         <tr>
             <td>04</td>
@@ -77,7 +77,7 @@
             <td>Stage 2</td>
             <td>HTML and CSS</td>
             <td align="center">
-            <a href="04"><img width="300px" src="/.github/04-preview.jpg" /></a></td>
+            <a href="04"><img width="300px" src="/.github/04-preview.png" /></a></td>
         </tr>
     </tbody>
 
