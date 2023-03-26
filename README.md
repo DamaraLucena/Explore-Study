@@ -20,7 +20,7 @@
                     </small>
                 </p>
             </th>
-            <th align="left">
+            <th align="center">
                 <img width="140" height="1">
                 <p align="left"> 
                     <small>
@@ -28,7 +28,7 @@
                     </small>
                 </p>
             </th>
-            <th align="left">
+            <th align="center">
                 <img width="140" height="1">
                 <p align="left"> 
                     <small>
