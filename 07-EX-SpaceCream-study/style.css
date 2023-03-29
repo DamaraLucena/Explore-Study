@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --bg-primary: #EFF1FF;
+    --bg-header:#8E9AAF;
+    --bg-hd-secondary: #CBC0D3;
+    --text-title: #ffffff;
+    --text-primary: #23053A;
+    --text-secondary: #4A4E69;
+}
+
+body {
+    background: var(--bg-primary);
+}
+
+.page {
+    min-width: 38rem;
+}
+
+/* Header */
+
+header{
+    background: var(--bg-header);
+    display: grid;
+    place-items: center;
+}
+
+.logo{
+    margin-top: 3.2rem;
+    
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+}
+
+.title{
+    margin-top: 3.2rem;
+    margin-bottom: 2.9rem;
+    background-color: var(--bg-hd-secondary);
+    text-align: center;
+    width: 100%;
+}
+
+.title h1{
+    font-family: 'Staatliches';
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    padding: 0.8rem;
+    color: var(--text-title);
+
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1.8rem 3.2rem 6rem;
+}
+
+.text{
+
+    font-family: 'Palanquin', sans-serif;
+    width: 40.5rem;
+    text-align: center;
+
+    margin-top: 1.4rem;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    
+    color: var(--text-primary);
+}
+
+/* Cards */
+
+.cards{
+    display: grid;
+    margin-top: 6.2rem;
+    grid-gap: 3.2rem;
+}
+
+.cards .card{
+    position: relative;
+
+    width: 32rem;
+    height: fit-content;
+
+    margin-bottom: 3.2rem;
+}
+
+.cards .card span{
+    font-family: 'Staatliches';
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 3.4rem;
+    letter-spacing: 0.2rem;
+
+    position: absolute;
+    text-align: center;
+    top: 1.6rem;
+    right: 1.6rem;
+
+    color: var(--text-secondary);
+    background: var(--text-title);
+    border-radius: 2rem;
+
+    width: 11.2rem;
+}
+
+.cards .card img {
+    width: 100%;
+
+    border-radius: 2rem;
+}

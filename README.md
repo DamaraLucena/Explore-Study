@@ -95,6 +95,14 @@
             <td align="center">
             <a href="06"><img width="300px" src="/.github/06-preview.png"/></a></td>
         </tr>
+        <tr>
+            <td>07</td>
+            <td><a href="07"> Space Cream </a></td>
+            <td>Stage 3</td>
+            <td>HTML and CSS</td>
+            <td align="center">
+            <a href="07"><img width="300px" src="/.github/07-preview.png"/></a></td>
+        </tr>
     </tbody>
 
 </table></p>
