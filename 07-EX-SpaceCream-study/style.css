@@ -24,7 +24,7 @@ body {
 .page {
     min-width: 38rem;
 }
-
+ 
 /* Header */
 
 header{
@@ -39,6 +39,10 @@ header{
     filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
 }
 
+.title-desk{
+    display: none;
+}
+
 .title{
     margin-top: 3.2rem;
     margin-bottom: 2.9rem;
@@ -49,9 +53,9 @@ header{
 
 .title h1{
     font-family: 'Staatliches';
-    font-size: 4rem;
+    font-size: 1.41rem;
     font-weight: 400;
-    line-height: 3.4rem;
+    line-height: 2.5rem;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     padding: 0.8rem;
@@ -94,10 +98,8 @@ main {
 
 .cards .card{
     position: relative;
-
-    width: 32rem;
+    /*width: 32rem;*/
     height: fit-content;
-
     margin-bottom: 3.2rem;
 }
 
@@ -124,4 +126,74 @@ main {
     width: 100%;
 
     border-radius: 2rem;
+}
+
+/* Iniciando Desktop */
+
+@media (min-width: 700px) {
+   
+    .page {
+        display: flex;
+    }
+
+    header {
+        width: 37.7rem;
+        height: 100vh;
+        position: fixed;
+
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .title-desk{
+        display: block;
+        font-family: 'Roboto';
+        font-size: 1.8rem;
+        line-height: 1.5rem;
+
+        align-items: center;
+        text-align: center;
+
+        margin-top: 5.2rem;
+        width: 27.5rem;
+
+        color: var(--text-title);
+    }
+
+    .text {
+        display: none;
+    }
+
+    .cards {
+        margin-left: 37.7rem;
+    }
+
+}
+
+/* Grid dos Cards */
+
+@media (min-width: 1300px) {
+    .cards {
+        grid-template-areas: 'A B C' 'D B E' 'D F E';
+    }
+
+    .cards .card:nth-child(1) {
+        grid-area: A;
+    }
+    .cards .card:nth-child(2) {
+        grid-area: B;
+    }
+    .cards .card:nth-child(3) {
+        grid-area: C;
+    }
+    .cards .card:nth-child(4) {
+        grid-area: D;
+    }
+    .cards .card:nth-child(5) {
+        grid-area: F;
+    }
+    .cards .card:nth-child(6) {
+        grid-area: E;
+    }
+    
 }
