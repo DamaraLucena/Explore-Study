@@ -130,7 +130,7 @@ main {
 
 /* Iniciando Desktop */
 
-@media (min-width: 700px) {
+@media (min-width: 900px) {
    
     .page {
         display: flex;
@@ -166,7 +166,30 @@ main {
 
     .cards {
         margin-left: 37.7rem;
+
+        grid-template-areas: 'A B' 'C B' 'C D' 'E F';
     }
+
+    .cards .card:nth-child(1) {
+        grid-area: A;
+    }
+    .cards .card:nth-child(2) {
+        grid-area: B;
+    }
+    .cards .card:nth-child(3) {
+        grid-area: D;
+    }
+    .cards .card:nth-child(4) {
+        grid-area: C;
+    }
+    .cards .card:nth-child(5) {
+        grid-area: E;
+    }
+    .cards .card:nth-child(6) {
+        grid-area: F;
+    }
+
+    
 
 }
 
