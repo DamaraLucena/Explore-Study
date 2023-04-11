@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 62.5%;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    background-image: url(./assets/fundo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Righteous', cursive;
+}
+
+/* Main */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.container .content h1{
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 2rem 0;
+
+    color: #fff;
+    opacity: 0.6;
+
+    text-shadow: 0 0 0.6rem #000;
+}
+
+/* Cards */
+
+.cards{
+    text-align: center;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    position: relative;
+    transform-style: preserve-3d;
+    animation: shuffle 4s;
+    grid-gap: 1rem;
+
+    margin-left: 8rem;
+}
+
+.card{
+    background-image: url(./assets/toupeira6.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23rem;
+    height: 17rem;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card:hover {
+    animation: image 1s  alternate-reverse;
+}
+
+/* Animation */
+
+@keyframes image {
+    0% {
+      background-image: url(./assets/toupeira1.svg);
+    }
+    5%{
+        background-image: url(./assets/toupeira2.svg);
+    }
+    25% {
+        background-image: url(./assets/toupeira3.svg);
+    }
+    50% {
+        background-image: url(./assets/toupeira4.svg);
+    }
+    75% {
+        background-image: url(./assets/toupeira5.svg);
+    } 
+    100% {
+        background-image: url(./assets/toupeira6.svg);
+    }
+}
+
+@keyframes shuffle {
+    0% {
+      transform: rotateY(0deg); 
+    }
+    25% {
+      transform: rotateY(90deg); 
+    }
+    50% {
+      transform: rotateY(180deg); 
+    }
+    75% {
+      transform: rotateY(270deg);
+    } 
+    100% {
+      transform: rotateY(360deg);
+    }
+}

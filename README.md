@@ -103,6 +103,14 @@
             <td align="center">
             <a href="07"><img width="300px" src="/.github/07-preview.png"/></a></td>
         </tr>
+         <tr>
+            <td>08</td>
+            <td><a href="08"> Jardim das Topeiras </a></td>
+            <td>Stage 3</td>
+            <td>HTML and CSS</td>
+            <td align="center">
+            <a href="08"><img width="300px" src="/.github/08-preview.png"/></a></td>
+        </tr>
     </tbody>
 
 </table></p>
