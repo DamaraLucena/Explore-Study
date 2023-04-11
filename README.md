@@ -101,7 +101,7 @@
             <td>Stage 3</td>
             <td>HTML and CSS</td>
             <td align="center">
-            <a href="07"><img width="300px" src="/.github/07-preview.png"/></a></td>
+            <a href="07"><img width="300px" src="/.github/07-previewDesk.png"/></a></td>
         </tr>
          <tr>
             <td>08</td>
